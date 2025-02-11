@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '*/5 * * * *'  # Her 5 dakikada bir botu çalıştır
+    - cron: '*/2 * * * *'  # Her 5 dakikada bir botu çalıştır
 
 jobs:
   run:
